@@ -24,7 +24,7 @@ export const CareerForm = _ => (
       <input type='text' placeholder='Job Title' />
     </div>
     <div className='form-group'>
-      <label>Length of Employment (Months)</label>
+      <label>Length of Employment (Years)</label>
       <select>
         {[1, 2, 3, 4, 5, 6].map(duration => (
           <option key={duration} value={duration}>
